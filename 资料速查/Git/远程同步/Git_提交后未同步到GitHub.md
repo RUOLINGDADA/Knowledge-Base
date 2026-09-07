@@ -1,8 +1,23 @@
-# [资料速查] Git 提交后执行 pull 但 GitHub 没有变化
+---
+分类: 资料速查
+层级: 精通层
+类型: 问题排查型
+主题: [Git, 远程同步, push 与 pull]
+技术栈: [git, github]
+tags: [git, github, 远程同步, git-push, 问题排查, 精通层]
+状态: 已验证
+创建日期: 待验证
+更新日期: 2026-09-08
+---
+
+# [资料速查] Git 提交后未同步到 GitHub
 
 > **分类**：资料速查
 > **层级**：理解层
-> **标签**：#git #github #git-push #远程仓库 #理解层
+> **标签**：#git #github #git-push #远程仓库 #精通层
+
+> 专题导航：[[Git_专题索引]]  
+> 相关笔记：[[Git_常用命令与场景]]、[[Git_提交身份配置]]
 
 ## 问题现象
 
@@ -64,7 +79,7 @@ git add .
 也可以只添加指定文件：
 
 ```bash
-git add "05_资料速查/Git同步与远程仓库/Git提交后pull但GitHub没有变化.md"
+git add "资料速查/Git/远程同步/Git_提交后未同步到GitHub.md"
 ```
 
 ### 2. 创建本地提交
@@ -129,6 +144,6 @@ git push origin main
 - **坑点5：推送失败可能是认证问题。** 如果 `git push` 出现权限、Token 或 SSH 错误，那是远程认证问题，与 `user.name` 和 `user.email` 不同；前两者只记录提交者身份。
 - **快速判断：** `ahead N` 表示本地有 N 个提交尚未推送，`behind N` 表示远程有 N 个提交尚未拉取，`ahead N, behind M` 表示双方都有独立提交。
 
-## 底层原理点睛
+## 原理 / 因果点睛
 
 Git 同时维护工作区、暂存区、本地仓库和远程仓库，`commit` 只把内容写入本地仓库，不会联网；`push` 才会把本地提交对象和分支引用发送到 GitHub。`pull` 只检查并获取远程变化，因此本地领先远程时执行它可能显示 `Already up to date`。
