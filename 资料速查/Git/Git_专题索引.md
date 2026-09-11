@@ -18,7 +18,7 @@ tags: [git, github, 版本控制, 专题索引, 了解层]
 
 ## 配置
 
-- [[Git_提交身份配置]]：定位并修复 `Author identity unknown`。
+- [[Git_提交身份配置]]：配置 commit 作者信息，并区分 HTTPS/SSH 远程认证与 push 权限。
 
 ## 远程同步
 

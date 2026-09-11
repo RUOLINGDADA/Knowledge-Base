@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7af39d77e748b54d",
+        "id": "8a5962fd0758c591",
         "type": "tabs",
         "children": [
           {
-            "id": "a5287f8fd66bab1a",
+            "id": "48f1831bc856b203",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "首页.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "首页"
+              "title": "README"
             }
           }
         ]
@@ -188,13 +188,27 @@
       "bases:新建数据库": false
     }
   },
-  "active": "a5287f8fd66bab1a",
+  "active": "48f1831bc856b203",
   "lastOpenFiles": [
+    "资料速查/嵌入式/树莓派/Ubuntu_树莓派GPIOZero开发环境与VSCode远程开发_教程01.md",
+    "资料速查/Git/配置/Git_提交身份配置.md",
+    "资料速查/嵌入式/树莓派/树莓派_专题索引.md",
+    "资料速查/嵌入式/树莓派/树莓派5_EEPROM_USB恢复与usbboot使用.md",
+    "资料速查/Git/命令/Git_常用命令与场景.md",
+    "资料速查/Windows/树莓派网络共享/Windows_树莓派网线SSH与网络共享_问题排查.md",
+    "资料速查/Windows/树莓派网络共享/Windows_树莓派网络共享_专题索引.md",
+    "资料速查/Windows/OpenSSH/OpenSSH_客户端配置与端口转发.md",
+    "资料速查/Windows/OpenSSH/Windows_OpenSSH_专题索引.md",
+    "资料速查/Windows/OpenSSH/SSH_远程登录命令与参数.md",
+    "资料速查/Windows/OpenSSH/Windows_OpenSSH_故障排查.md",
+    "资料速查/Windows/OpenSSH/Windows_OpenSSH_服务器配置.md",
+    "资料速查/Windows/OpenSSH/Windows_OpenSSH_安装验证与工具总览.md",
+    "资料速查/Windows/OpenSSH/SFTP_交互式文件传输与参数.md",
+    "资料速查/Windows/OpenSSH/SCP_文件复制命令与参数.md",
+    "资料速查/Windows/OpenSSH/OpenSSH_密钥工具与ssh-agent.md",
     "首页.md",
     "资料速查/Git/Git_专题索引.md",
     "资料速查/Git/远程同步/Git_提交后未同步到GitHub.md",
-    "资料速查/Git/命令/Git_常用命令与场景.md",
-    "资料速查/Git/配置/Git_提交身份配置.md",
     "README.md",
     "agent.md",
     "待整理的新笔记",
